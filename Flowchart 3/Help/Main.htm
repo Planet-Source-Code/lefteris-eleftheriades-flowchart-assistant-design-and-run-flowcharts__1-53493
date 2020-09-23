@@ -1,0 +1,81 @@
+<html><head>
+<title>New Page 1</title>
+<meta content="Microsoft FrontPage 5.0" name=GENERATOR>
+<meta content=FrontPage.Editor.Document name=ProgId>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+//Preload images
+imgIf = new Image();
+imgIf.src = "IF.png";
+
+imgInput = new Image();
+imgInput.src = "Input.png";
+
+imgProcess = new Image();
+imgProcess.src = "Process.png";
+
+imgOutput = new Image();
+imgOutput.src = "Output.png";
+
+imgRun = new Image();
+imgRun.src = "Run.png";
+
+imgStart = new Image();
+imgStart.src = "Start.png";
+
+imgNoPrev = new Image();
+imgNoPrev.src = "NoPrev.png";
+
+
+// End -->
+</script>
+
+
+</HEAD>
+<body>
+
+<table id=AutoNumber1 height=231 cellSpacing=0 cellPadding=0 width="80%" 
+border=1>
+  <tr>
+   <td width="100%" colSpan=2 height=23><b>Click on an item to view it's 
+   description:</b></td>
+    <tr>
+    <td width="100%" colSpan=2 height=364><map 
+      name=FPMap0><area onclick="TEXTAREA1.value ='Start:\nYou use start to show that you are starting a flowchart.\nStart is always the fist command that will be executed when you hit run. You have to connect Start to an other shape. For more information on connecting click the line with the arrow on the toolbar.\nOn double clicking this shape you can add variables that will be used in the flowchart. This is not necessary for the flowchart to run, and it is only put there because there is a feature in the program that can allow you to view the code in Visual basic and pascal, which require variable declaration';document['prev'].src='Start.png'" shape=RECT coords=64,126,132,160>
+        <area shape=RECT coords=152,126,223,161 onclick="TEXTAREA1.value ='Process:\nDouble clicking this shape will enable you to write any mathematical or string calculation you want. You can use various mathematical functions as well.\nSupported Mathematic Functions:\n Abs(number)  Returns the absolute value\n Sqr(number) Returns square root\n Sin(angle), Cos(angle), Tan(angle) in radians\n Atn(number) Inverse tangent in rads\n Mathematical symbols: +, -, *, /, ^, ()\nSupported String Functions:\n Mid(Text,Start,Length) gets a part of the\n string begining from char start.\n UCase(text), LCase(text) changes text case\n Text joining symbol: &';document['prev'].src='Process.png'">
+        <area shape=RECT coords=252,126,324,161 onclick="TEXTAREA1.value ='Here we use process to give a value to a variable called Num.\nVariables can store string and numerical data\nwith out beeing declared. Variables are read up based on their name and should not be included in doublequotes in contrast to text';document['prev'].src='Process.png'">
+        <area shape=POLY coords=353,160,370,126,502,126,485,160 onclick="TEXTAREA1.value ='Input parallelogram:\nYou can request for string input via this shape. When you doubleclick it it will let you set 2 things, the text to be displayed, and should be included in double quotes, and the variable name to store it in, and should not be included in doublequotes. Variables dont have to be declared.';document['prev'].src='Input.png'">
+        <area shape=RECT coords=372,176,484,211 onclick="TEXTAREA1.value ='In this case the variable called Num is increased by one';document['prev'].src='Process.png'">
+        <area shape=RECT coords=372,226,484,260 onclick="TEXTAREA1.value ='Here the Sum is increased by the value of Num';document['prev'].src='Process.png'">
+        <area shape=POLY coords=164,244,237,218,308,244,238,267 onclick="TEXTAREA1.value ='Condition box:\nHas two branches (lines leaving form it) and chooses a course in either the first or the second, depending on the truthfulness of the condition. The first line connected form the Condition box goes to the code to be executed if condition is False.\nIn this case the line going up to the small circle is the False path, and the one going to the output paralelogram is the true path';document['prev'].src='If.png'">
+        <area shape=CIRCLE coords=236,193,7 onclick="TEXTAREA1.value ='Connection Pole:\nThis shape is here to help you on connecting two shapes together using this as an intermidiate pole. This will enable you to have straight lines in your flowcharts, and is not visible when printing.';document['prev'].src='NoPrev.png'">
+        <area shape=POLY coords=109,296,382,296,366,328,94,328 onclick="TEXTAREA1.value ='Output parallelogram:\nUsed to display text in a new line. Text should be included in double quotes, while variables should not. You can join text and variable contents using the & character (see preview) ';document['prev'].src='Output.png'">
+        <area shape=RECT coords=393,296,461,329 onclick="TEXTAREA1.value ='Indicates the end of the code. Should be only one. Should be one (or more) incomming lines and no outgoing.';document['prev'].src='NoPrev.png'">
+        <area shape=POLY 
+        coords=246,190,362,190,352,183,354,179,373,189,374,196,357,206,353,201,363,195,245,195 
+        onclick="TEXTAREA1.value ='Connecting arrow:\nThis arrow connects two shapes together. Usually shapes have one (or more) going to them, and one leaving from them. In the condition shape there is one ingoing line and two outgoing (this is the only exception) of which only one is chosen (based on the truthfulness of the condition) to continue to the next shape at each execution of the condition shape. In the case of the Start shape, there is only an outgoing line since the first shape run is always the start. Likewize the Stop shape has an ingoing line or more. There are no outgoing since the code cant continue after a stop.';document['prev'].src='Connect.png'"><area shape=RECT coords=5,43,48,69 
+        href="#0"><area shape=RECT coords=51,43,94,69 
+        href="#0"><area shape=RECT coords=97,43,140,69 
+        href="#0"><area shape=RECT coords=143,43,186,69 
+        href="#0"><area shape=RECT coords=190,43,233,69 
+        href="#0"><area shape=RECT coords=283,43,373,69 
+        href="#0"><area shape=RECT coords=236,43,279,69 
+        href="#0"><area shape=RECT coords=375,43,401,69 
+        href="#0"><area shape=RECT coords=404,43,430,69 
+        onclick="TEXTAREA1.value ='How to use joining lines:\nThis is the most important part of the design!\nIn order to connect two shapes together you must first select the source shape, then the destination shape, and click this button. This way once the code comes to the source shape, after the source shape s instruction is executed the next command to be executed is the one of the shape that is connected to the original.\nIn the preview window we can see that after the code begins at start, it will go to the stop insturction.';document['prev'].src='Connect.png'"><area shape=RECT coords=433,43,459,69 
+        onclick="TEXTAREA1.value ='';document['prev'].src='Run.png'"><area shape=RECT coords=462,43,488,69 
+        href="#0"><area shape=RECT coords=491,43,517,69 
+        href="#0"><area shape=RECT coords=549,43,575,69 
+        href="#0"><area shape=RECT coords=521,43,547,69 
+        href="#0"></MAP>
+    <p align="center">
+    <IMG height=364 src="Main.png" width=583 useMap=#FPMap0 border=0 ></TD></TR>
+  <tr>
+    <td width="47%" height=204>
+      <p align=center>
+      <IMG NAME="prev" SRC="" ALT="No Preview Availiable"></A></P></TD>
+    <td id = "t1" width="73%" height="204" align="left" valign="top">
+    <textarea id=TEXTAREA1 rows=13 cols=48>
+</textarea></td></TR></TABLE>
+</body></HTML>
